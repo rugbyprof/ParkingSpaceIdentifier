@@ -7,6 +7,8 @@ from skimage import filter
 from skimage import data
 import os
 
+#https://www.dropbox.com/s/fydtz4kiqm6rt70/bolin_parkinglot.png?dl=0
+
 filename = os.path.join(skimage.data_dir, 'bolin_parkinglot.png')
 img = io.imread('bolin_parkinglot.png')
 gray = np.sqrt((img*img).sum(-1))
