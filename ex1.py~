@@ -15,7 +15,7 @@ def microstructure(l=256):
     l: int, optional
         linear size of the returned image
     """
-    n = 5
+    n = 15
     x, y = np.ogrid[0:l, 0:l]
     mask = np.zeros((l, l))
     generator = np.random.RandomState(1)
