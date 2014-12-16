@@ -24,7 +24,7 @@ im += 0.2 * np.random.random(im.shape)
 
 # Compute the Canny filter for two values of sigma
 edges1 = filter.canny(gray)
-edges2 = filter.canny(gray, sigma=28)
+edges2 = filter.canny(gray, sigma=35)
 
 # display results
 fig, (ax1, ax2, ax3) = plt.subplots(nrows=1, ncols=3, figsize=(8, 3))
