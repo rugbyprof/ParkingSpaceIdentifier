@@ -1,0 +1,13 @@
+git push origin master == for saving n pushing all to the master file
+git commit -m "testing" == for giving some name with commiting
+git add . == for adding all the files
+ll == listing all the files
+rf == re
+rm == removing
+mv .git .. == moves the git repostory
+ git clone git@github.com:rugbyprof/ParkingSpaceIdentifier.git == for cloning 
+
+
+ref links
+
+http://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html
