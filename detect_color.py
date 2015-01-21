@@ -6,7 +6,6 @@ import numpy as np
 import argparse
 import cv2
 
-
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", help = "path to the image")
@@ -23,12 +22,6 @@ boundaries = [
 	([103, 86, 65], [145, 133, 128])
 ]
 
-# detects 
-
-
-# Draw a rectangle around the face
-for (x, y, w, h) in boundaries:
-       cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
 # loop over the boundaries
 for (lower, upper) in boundaries:
